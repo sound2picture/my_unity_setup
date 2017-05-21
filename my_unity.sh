@@ -18,6 +18,8 @@ git clone https://github.com/LinxGem33/OSX-Arc-Plus.git
 mkdir ~/.icons
 cd ~/.icons
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
+# indicators
+sudo apt install indicator-multiload
 
 ########### MEDIA
 sudo apt install vlc
@@ -31,9 +33,11 @@ sudo apt install darktable
 sudo add-apt-repository ppa:otto-kesselgulasch/gimp-edge
 sudo apt-get update
 sudo apt-get install gimp
+sudo apt-get install gimp-plugin-registry gimp-gmic
 
 
 # TODO
 # syncthing
 # pycharm
-# gimp 2.9
+# drobox
+# skype
