@@ -14,10 +14,12 @@ sudo apt install terminix
 ########### INTERFACE
 sudo apt install unity-tweak-tool
 mkdir ~/.themes
+cd ~/.themes
 git clone https://github.com/LinxGem33/OSX-Arc-Plus.git
 mkdir ~/.icons
 cd ~/.icons
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
+cd ~
 # indicators
 sudo apt install indicator-multiload
 
